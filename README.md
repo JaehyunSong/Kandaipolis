@@ -16,7 +16,7 @@ You can see the sample slide [here](Sample.pdf).
 
 `sample.Rmd`
 
-```markdown
+````markdown
 ---
 title: "Kandaipolis"
 subtitle: "A {xaringan} theme for Kansai University inspired by Metropolis"
@@ -155,4 +155,4 @@ class: inverse, center, middle, mline
 
 * 150%
    * .font150[Example]
-```
+````
