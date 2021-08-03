@@ -50,14 +50,15 @@ pre {
 }
 
 th, td { 
-  padding: 5px; 
+  padding: 0px 5px 0px 5px; 
 }
 
+/*
 .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { 
   background: #eee 
 }
+*/
 
-/* Two-column layout */
 .left-column {
   width: 30%;
   float: left;
@@ -85,6 +86,11 @@ th, td {
 }
 .pull-right ~ * {
   clear: both;
+}
+
+.pull-full {
+  position: relative;
+  width: 100%;
 }
 
 /* 画面3列分割 */
@@ -153,13 +159,31 @@ h2, h3, h4 {
   margin-bottom: 0em;
 }
 
-.remark-slide-content ol, ul {
+.remark-slide-content ul, ol {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
-li > ul, ol {
+.remark-slide-content li > ul {
   margin-top: 0em;
+}
+
+.remark-slide-content li > ol {
+  margin-top: 0em;
+}
+
+.remark-slide-content ul > li > ul {
+  margin-bottom: 0em;
+}
+
+.remark-slide-content ol > li > ul {
+  margin-bottom: 0em;
+}
+
+.remark-slide-content blockquote {
+  margin: 12px 20px 12px 10px;
+  padding-left: 5px;
+  border-left: 7px solid #FFDCC8;
 }
 
 .remark-slide-content h1 {
@@ -377,4 +401,22 @@ hr, .mline h1::after {
 }
 .font200 {
   font-size: 200%;
+}
+
+/* 圏点（通常）*/
+.kenten {
+  padding-top: .01em;
+  background-position: top left -2px;
+  background-repeat: repeat-x;
+  background-size: 1em .3em;
+  background-image: radial-gradient(2px 2px at center center, black, black 100%,transparent);
+}
+
+/* 圏点（強調）*/
+.kenten2 {
+  padding-top: .01em;
+  background-position: top left -2px;
+  background-repeat: repeat-x;
+  background-size: 1em .3em;
+  background-image: radial-gradient(2px 2px at center center, var(--emphasis-color), var(--emphasis-color) 100%,transparent);
 }

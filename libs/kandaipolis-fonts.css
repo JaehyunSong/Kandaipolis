@@ -1,4 +1,19 @@
+/*@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,700,700i);
+
+body { 
+  font-family: 'Droid Serif', 'Noto Sans JP', 'Palatino Linotype', 'Book Antiqua', "Palatino", 'Songti SC', serif; 
+}
+
+.remark-code, .remark-inline-code { 
+  font-family: 'Source Code Pro', 'Ricty Diminished', 'Noto Sans JP', 'Lucida Console', "Monaco", monospace; 
+  font-size: 80%;
+}
+*/
+
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400);
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,700,700i);
 
@@ -7,5 +22,5 @@ body {
 }
 
 .remark-code, .remark-inline-code { 
-  font-family: 'Source Code Pro', 'Ricty Diminished', monospace, 'Noto Sans JP'; 
+  font-family: 'Ricty Diminished', monospace, 'Noto Sans JP'; 
 }
