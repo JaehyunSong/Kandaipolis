@@ -6,7 +6,7 @@ institute: "Faculty of Informatics, Kansai University"
 date: "2021/5/18 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    css: ["lib/kandaipolis.css", "lib/kandaipolis-fonts.css"]
+    css: [default, "lib/kandaipolis.css", "lib/kandaipolis-fonts.css"]
     lib_dir: libs
     nature:
       beforeInit: ["lib/kandaipolis-macro.js"]
